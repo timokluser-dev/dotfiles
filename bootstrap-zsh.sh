@@ -47,3 +47,5 @@ nvm use --lts
 cp .npmrc ~/
 
 #endregion Node.js
+
+source ~/.zshrc

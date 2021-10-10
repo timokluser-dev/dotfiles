@@ -6,7 +6,7 @@ personal dotfiles for setting up a new machine
 
 every environment has it's own branch.
 
-- [macOS-base](https://github.com/timokluser-dev/dotfiles/tree/macOS-base)
+- [macOS-base](https://github.com/timokluser-dev/dotfiles/tree/macos-base)
 
 ---
 

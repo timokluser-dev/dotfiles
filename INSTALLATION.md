@@ -1,0 +1,35 @@
+# Installation
+
+- brew
+- brew cask
+- wget
+- git
+- azure-cli
+- awscli
+- google-chrome
+- microsoft-edge
+- firefox
+- spectacle
+- spotify
+- signal
+- webstorm
+- phpstorm
+- intellij-idea
+- visual-studio-code
+- atom
+- azure-data-studio
+- sequel-pro
+- sourcetree
+- docker
+- postman
+- insomnia
+- cyberduck
+- 1password
+- macpass
+- iterm2
+- zsh
+- oh-my-zsh
+- zsh-theme: spaceship-prompt
+- zsh-theme: agnoster
+- nvm
+- node.js lts

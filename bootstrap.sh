@@ -43,7 +43,8 @@ brew install --cask google-chrome \
                         firefox \
                         rectangle \
                         spotify \
-                        signal       
+                        signal \
+                        microsoft-remote-desktop
 
 # IDEs
 brew install --cask webstorm \

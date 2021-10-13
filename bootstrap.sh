@@ -41,7 +41,7 @@ brew install wget \
 brew install --cask google-chrome \
                         microsoft-edge \
                         firefox \
-                        spectacle \
+                        rectangle \
                         spotify \
                         signal       
 

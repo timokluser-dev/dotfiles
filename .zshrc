@@ -119,6 +119,7 @@ alias stfu="osascript -e 'set Volume output muted true'"
 alias unmute="osascript -e 'set Volume output muted false'"
 alias status="git status"
 alias add-all="git add . ; git status"
+alias brew-browse="open -a 'Google Chrome' 'https://formulae.brew.sh/formula/'"
 
 # Theme options
 

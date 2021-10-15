@@ -42,6 +42,7 @@ brew install --cask google-chrome \
                         microsoft-edge \
                         firefox \
                         rectangle \
+                        maccy \
                         spotify \
                         signal \
                         microsoft-remote-desktop

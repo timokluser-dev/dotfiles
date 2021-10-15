@@ -125,10 +125,3 @@ alias brew-browse="open -a 'Google Chrome' 'https://formulae.brew.sh/formula/'"
 
 # spaceship: @see https://spaceship-prompt.sh/options/
 # agnoster: @see https://github.com/agnoster/agnoster-zsh-theme#customize-your-prompt-view
-
-# Terminal options
-
-# Set default font for Apple Terminal needed by zsh themes
-if [[ "$TERM_PROGRAM" == "Apple_Terminal" ]]; then
-    osascript -e "tell application \"Terminal\" to set the font name of window 1 to \"Fira Code\""
-fi

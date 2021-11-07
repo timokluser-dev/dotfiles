@@ -67,7 +67,8 @@ brew install --cask sourcetree \
                         cyberduck \
                         1password \
                         macpass \
-                        iterm2
+                        iterm2 \
+                        gitdock
 
 #endregion Install Brew Packages
 

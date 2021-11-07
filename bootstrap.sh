@@ -52,7 +52,8 @@ brew install --cask webstorm \
                         phpstorm \
                         intellij-idea \
                         visual-studio-code \
-                        atom
+                        atom \
+                        typora
 
 # database mgmt tools
 brew install --cask azure-data-studio \

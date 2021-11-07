@@ -120,6 +120,8 @@ alias unmute="osascript -e 'set Volume output muted false'"
 alias status="git status"
 alias add-all="git add . ; git status"
 alias brew-browse="open -a 'Google Chrome' 'https://formulae.brew.sh/formula/'"
+alias npm-reset="rm -r ./node_modules/ ; npm install"
+alias nvm-lts="nvm install --lts ; nvm use --lts"
 
 # Theme options
 

@@ -1,0 +1,6 @@
+---
+# tasks file for roles/git
+
+- name: Install git using brew
+  community.general.homebrew:
+    name: git

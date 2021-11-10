@@ -1,0 +1,36 @@
+{
+  "name": "dotfiles",
+  "version": "1.0.0",
+  "description": "personal dotfiles for setting up a new machine",
+  "main": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "bash ./bin/bootstrap.sh",
+    "setup-dev": "bash ./dev/bootstrap.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timokluser-dev/dotfiles.git"
+  },
+  "keywords": [
+    "ansible",
+    "macos",
+    "staging",
+    "setup"
+  ],
+  "author": "timokluser-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timokluser-dev/dotfiles/issues"
+  },
+  "homepage": "https://github.com/timokluser-dev/dotfiles#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

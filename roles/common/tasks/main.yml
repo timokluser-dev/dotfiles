@@ -1,0 +1,14 @@
+---
+# tasks file for roles/common
+
+- name: Install wget using brew
+  community.general.homebrew:
+    name: wget
+
+- name: Install awscli using brew
+  community.general.homebrew:
+    name: awscli
+
+- name: Install azure-cli using brew
+  community.general.homebrew:
+    name: azure-cli

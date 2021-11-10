@@ -1,0 +1,21 @@
+# usage:
+# ---
+# ansible-playbook ./playbook.yml -t brew, nodejs
+# ansible-playbook ./playbook.yml -t all
+
+- name: Set up my MacBook 💻 🔥
+  hosts: local
+  connection: local
+  roles:
+    - role: git
+      tags:
+        # role tag:
+        - git
+        # group tags:
+        - common
+    - role: common
+      tags:
+        # role tag:
+        - common
+        # group tags:
+        # - 

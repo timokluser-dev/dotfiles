@@ -3,7 +3,10 @@
 ## Run the playbook
 
 ```bash
-npm run setup
+npm run setup -- all
+
+# only specific tags:
+npm run setup -- common git
 ```
 
 ## Ansible Development

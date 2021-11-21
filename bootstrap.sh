@@ -82,6 +82,7 @@ cp .vscode/settings.json "$HOME/Library/Application Support/Code/User/"
 
 # copy dotfile
 cp .gitconfig ~/
+cp .bashrc ~/
 
 #endregion Gitconfig
 

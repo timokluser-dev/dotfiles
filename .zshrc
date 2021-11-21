@@ -127,3 +127,7 @@ alias nvm-lts="nvm install --lts ; nvm use --lts"
 
 # spaceship: @see https://spaceship-prompt.sh/options/
 # agnoster: @see https://github.com/agnoster/agnoster-zsh-theme#customize-your-prompt-view
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
